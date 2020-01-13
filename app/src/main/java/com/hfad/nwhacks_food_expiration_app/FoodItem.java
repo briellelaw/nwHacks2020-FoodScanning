@@ -42,7 +42,7 @@ public class FoodItem {
                 }
             }
             // check if contains brown
-            else if (ForegroundC.equals("Yellow") && !BackGroundC.equals("Brown") && (dominantC.contains("Brown") || dominantC.contains("Grey"))) {
+            else if (ForegroundC.equals("Yellow") && !BackGroundC.equals("Brown") && ((dominantC.contains("Brown")) || dominantC.contains("Black"))) {
                 expiryTime = 2;
             }
         }
